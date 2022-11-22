@@ -1,4 +1,11 @@
+const findMostFrequentCharacter = require('./findMostFrequentCharacter');
 const isPalindrome = require('./isPalindrome');
 const reverseString = require('./reverseString');
+const reverseInteger = require('./reverseInteger');
 
-module.exports = { isPalindrome, reverseString };
+module.exports = {
+  findMostFrequentCharacter,
+  isPalindrome,
+  reverseString,
+  reverseInteger,
+};
