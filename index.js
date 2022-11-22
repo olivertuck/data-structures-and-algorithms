@@ -1,5 +1,4 @@
+const isPalindrome = require('./isPalindrome');
 const reverseString = require('./reverseString');
 
-module.exports = {
-  reverseString,
-};
+module.exports = { isPalindrome, reverseString };
