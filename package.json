@@ -1,0 +1,14 @@
+{
+  "author": "Oliver Tuck <78821067+olivertuck@users.noreply.github.com>",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "data-structures-and-algorithms",
+  "repository": "https://github.com/olivertuck/data-structures-and-algorithms.git",
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "1.0.0"
+}
