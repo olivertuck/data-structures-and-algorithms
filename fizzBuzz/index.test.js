@@ -1,6 +1,6 @@
 const fizzBuzz = require('.');
 
-test('returns expected output', () => {
+test('expected output is returned', () => {
   expect(fizzBuzz(15)).toEqual([
     1,
     2,
