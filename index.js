@@ -1,3 +1,4 @@
+const capitalizeSentence = require('./capitalizeSentence');
 const divideArrayByChunkSize = require('./divideArrayByChunkSize');
 const findMostFrequentCharacter = require('./findMostFrequentCharacter');
 const fizzBuzz = require('./fizzBuzz');
@@ -7,6 +8,7 @@ const reverseInteger = require('./reverseInteger');
 const stringsAreAnagrams = require('./stringsAreAnagrams');
 
 module.exports = {
+  capitalizeSentence,
   divideArrayByChunkSize,
   findMostFrequentCharacter,
   fizzBuzz,
