@@ -4,6 +4,7 @@ const fizzBuzz = require('./fizzBuzz');
 const isPalindrome = require('./isPalindrome');
 const reverseString = require('./reverseString');
 const reverseInteger = require('./reverseInteger');
+const stringsAreAnagrams = require('./stringsAreAnagrams');
 
 module.exports = {
   divideArrayByChunkSize,
@@ -12,4 +13,5 @@ module.exports = {
   isPalindrome,
   reverseString,
   reverseInteger,
+  stringsAreAnagrams,
 };
