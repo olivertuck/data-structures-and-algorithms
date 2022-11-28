@@ -3,10 +3,10 @@ const capitalizeSentence = (sentence) => {
 
   for (i = 0; i < sentence.length; i++) {
     const isFirstCharacter = i === 0;
-    const previousCharacterIsSpace = sentence[i - 1] === ' ';
+    const isPreviousCharacterASpace = sentence[i - 1] === ' ';
     const character = sentence[i];
 
-    if (isFirstCharacter || previousCharacterIsSpace) {
+    if (isFirstCharacter || isPreviousCharacterASpace) {
       capitalizedSentence += character.toUpperCase();
     } else {
       capitalizedSentence += character;

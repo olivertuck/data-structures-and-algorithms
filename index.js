@@ -1,19 +1,21 @@
+const areStringsAnagrams = require('./areStringsAnagrams');
 const capitalizeSentence = require('./capitalizeSentence');
 const divideArrayByChunkSize = require('./divideArrayByChunkSize');
 const findMostFrequentCharacter = require('./findMostFrequentCharacter');
 const fizzBuzz = require('./fizzBuzz');
 const isPalindrome = require('./isPalindrome');
-const reverseString = require('./reverseString');
+const printSteps = require('./printSteps');
 const reverseInteger = require('./reverseInteger');
-const stringsAreAnagrams = require('./stringsAreAnagrams');
+const reverseString = require('./reverseString');
 
 module.exports = {
+  areStringsAnagrams,
   capitalizeSentence,
   divideArrayByChunkSize,
   findMostFrequentCharacter,
   fizzBuzz,
   isPalindrome,
-  reverseString,
+  printSteps,
   reverseInteger,
-  stringsAreAnagrams,
+  reverseString,
 };
